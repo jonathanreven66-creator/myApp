@@ -17,7 +17,7 @@ app.listen(port, () => {
 mongoose
   .connect("mongodb://localhost:27017/myapppp_db")
   .then(() => {
-    console.log("connected to myapp db");
+    console.log("connected in myapp db");
   })
   .catch((error) => {
     console.error("error connect db :", error);
